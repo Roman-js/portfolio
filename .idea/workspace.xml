@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c6b3-9239-423f-a5b4-b5ede5dabd15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_Main/Main.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_Main/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_Skills/Skills.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_Skills/Skills.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/css4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/git.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/html.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/js.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/redux.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/restapi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/typescript.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,13 +52,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cards" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/07_Common/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="E:\FrontDevelop\portfolio\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FrontDevelop\portfolio\src\07_Common\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FrontDevelop\portfolio\src\07_Common\images" />
+      <recent name="E:\FrontDevelop\portfolio\src\07_Common\Title" />
+      <recent name="E:\FrontDevelop\portfolio\src\03_Skills\EachSkill" />
+      <recent name="E:\FrontDevelop\portfolio\src" />
+      <recent name="E:\FrontDevelop\portfolio\src\02_Skills" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -70,7 +109,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594393629182</updated>
-      <workItem from="1594393631161" duration="298000" />
+      <workItem from="1594393631161" duration="9687000" />
+      <workItem from="1594408864835" duration="13845000" />
+      <workItem from="1594451475201" duration="755000" />
     </task>
     <servers />
   </component>
@@ -78,9 +119,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1594394007263">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594450179158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594394007263" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594450179158" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1594398532405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594398532405" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594398531114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594398531114" />
   </component>
 </project>
