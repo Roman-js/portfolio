@@ -1,13 +1,12 @@
+@import "../07_Common/saas/variables";
 
 .skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     overflow: hidden;
-    background-color: #212529;
+    background-color: $bgSecondColor;
+    padding-bottom: 10px;
 }
 
-.eachSkill {
-    width: 100%;
-    height: 100vh;
-}
+

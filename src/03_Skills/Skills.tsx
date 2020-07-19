@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import {Container} from "@material-ui/core";
 import EachSkill from "./EachSkill/EachSkill";
 import react from "./../07_Common/images/react.png"
@@ -25,7 +25,6 @@ const Skills = () => {
         {img: css, title: 'CSS', cols: 1},
         {img: reduxImg, title: 'Redux', cols: 2},
 
-        /*{img: './../07_Common/images/...', title: 'React', cols: 2}*/
     ];
 
     return (

@@ -1,0 +1,39 @@
+
+ @import '../../07_Common/saas/variables';
+
+.wrapperAProject {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    .image {
+        height: 330px;
+        width: 300px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: $bgSecondColor;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+    }
+}
+
+
+
+
+
+
+

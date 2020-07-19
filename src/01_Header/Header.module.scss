@@ -1,0 +1,17 @@
+@import "../07_Common/saas/variables";
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: $bgSecondColor;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+
+  .menu {
+    width: 360px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

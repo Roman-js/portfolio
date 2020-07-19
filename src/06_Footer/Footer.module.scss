@@ -1,0 +1,21 @@
+@import "../07_Common/saas/variables";
+
+.footer {
+  min-height: 150px;
+  background-color: $bgColor;
+  display: flex;
+
+  .iconsContainer{
+
+    display: flex;
+    justify-content: center;
+
+
+    .icons {
+      width: 75px;
+      height: 75px;
+      padding: 10px;
+    }
+  }
+
+}
