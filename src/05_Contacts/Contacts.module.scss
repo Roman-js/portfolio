@@ -2,18 +2,14 @@
 
 .contacts {
   display: flex;
-  min-height: 70vh;
+  padding: $paddingContainer;
   background-color: $bgSecondColor;
 
-  .container {
-    min-height: 70vh;
 
     .insideContainer {
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 70vh;
-
 
       .form {
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -32,7 +28,7 @@
     }
   }
 
-}
+
 
 
 

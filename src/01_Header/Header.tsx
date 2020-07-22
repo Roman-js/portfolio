@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div className={style.header}>
             <div className={style.menu}>
-                <a href="javascript:void(0)">Main</a>
-                <a href="javascript:void(0)">Skills</a>
-                <a href="javascript:void(0)">Projects</a>
-                <a href="javascript:void(0)">Contacts</a>
+                <a className={style.link} href="javascript:void(0)">Main</a>
+                <a className={style.link} href="javascript:void(0)">Skills</a>
+                <a className={style.link} href="javascript:void(0)">Projects</a>
+                <a className={style.link} href="javascript:void(0)">Contacts</a>
             </div>
 
         </div>

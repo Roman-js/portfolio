@@ -37,9 +37,8 @@ const Projects = () => {
     const theme = createMuiTheme({
         palette: {
             primary: {
-                main: green[50]
+                main: green[400]
             },
-
             secondary: {
                 main: red[50]
             },

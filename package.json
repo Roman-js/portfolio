@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Roman-js.github.io/portfolio",
+  "homepage": "https://Roman-js.github.io/Portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -18,8 +18,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-particles-js": "^3.3.0",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "react-tsparticles": "^1.17.3",
+    "tsparticles": "^1.17.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
   }
 }

@@ -5,6 +5,7 @@ import Title from "../07_Common/Title/Title";
 
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
+import {green, purple, red} from "@material-ui/core/colors";
 
 
 const styles = {
@@ -13,7 +14,12 @@ const styles = {
     },
     input: {
         color: "white"
-    }
+    },
+    /*palette: {
+        primary: purple,
+        secondary: green,
+        error: red,
+    },*/
 };
 
 const Contacts = (props: any) => {
@@ -39,7 +45,9 @@ const Contacts = (props: any) => {
                                    className={classes.root}
                                    InputProps={{className: classes.input}}
                         />
-                        <div className={style.button}><Button variant='outlined' color='primary' >Send</Button></div>
+                        <div className={style.button}>
+                            <Button variant='outlined' color='primary'>Send</Button>
+                        </div>
 
                     </form>
                 </div>
@@ -52,7 +60,6 @@ const Contacts = (props: any) => {
 Contacts.propTypes = {
     classes: PropTypes.object.isRequired
 };
-
 export default withStyles(styles)(Contacts);
-/*export default Contacts*/
+
 

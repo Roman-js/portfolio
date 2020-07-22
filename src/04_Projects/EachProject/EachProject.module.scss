@@ -1,19 +1,17 @@
 
  @import '../../07_Common/saas/variables';
+ @import '../../07_Common/saas/mixins';
 
 .wrapperAProject {
-    display: flex;
+
+    @include flex(space-around,'', wrap);
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-content: space-around;
     .image {
         height: 350px;
         width: 400px;
         margin: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        @include flex(center,flex-end,'');
         padding-bottom: 10px;
         background-size: cover;
         background-position: center;

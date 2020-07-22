@@ -1,12 +1,12 @@
 @import "../07_Common/saas/variables";
+@import "../07_Common/saas/mixins";
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+    @include flex(space-around,'',wrap);
     overflow: hidden;
     background-color: $bgSecondColor;
-    padding-bottom: 10px;
+    padding: $paddingContainer;
 }
 
 
