@@ -8,6 +8,7 @@ import Contacts from "./05_Contacts/Contacts";
 import Footer from "./06_Footer/Footer";
 
 const App = () => {
+
   return (
     <div>
 

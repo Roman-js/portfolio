@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import style from './EachSkill.module.scss'
-import {GridList, GridListTile, IconButton, ListItem} from "@material-ui/core";
+import {GridList, GridListTile, IconButton} from "@material-ui/core";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import InfoIcon from '@material-ui/icons/Info';
 
@@ -20,7 +20,7 @@ const EachSkill = (props: imgDataType) => {
 
     return (
         <div>
-            <GridList cellHeight={222} cols={3} className={style.eachSkill}>
+            <GridList cellHeight={214} cols={3} className={style.eachSkill}>
 
                 {props.imgData.map(skill =>
                     <GridListTile key={skill.img} cols={skill.cols || 1} >

@@ -2,34 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c6b3-9239-423f-a5b4-b5ede5dabd15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_Projects/Projects.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/06_Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/images/cards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/images/social_network.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/images/social_network1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/images/todo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/saas/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_Common/saas/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_Common/images/MyPhoto.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01_Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02_Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/02_Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/Skills.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03_Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07_Common/Title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_Common/Title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/07_Common/Title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_Common/saas/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/saas/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_Common/saas/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/saas/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/06_Footer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,7 +118,9 @@
       <workItem from="1594732522049" duration="11204000" />
       <workItem from="1594792626064" duration="12774000" />
       <workItem from="1594894346013" duration="9071000" />
-      <workItem from="1595071374404" duration="6031000" />
+      <workItem from="1595071374404" duration="25975000" />
+      <workItem from="1595270240472" duration="3132000" />
+      <workItem from="1595317162830" duration="6825000" />
     </task>
     <task id="LOCAL-00001" summary="Add Skill's page&#10;Use Material UI">
       <created>1594452502774</created>
@@ -133,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594452502774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Layout all pages and add SASS">
+      <created>1595142913043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595142913043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +144,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Skill's page&#10;Use Material UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Skill's page&#10;Use Material UI" />
+    <MESSAGE value="Layout all pages and add SASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout all pages and add SASS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#ESLint" timestamp="1594549991504">
@@ -152,14 +156,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594450179158" />
-    <state x="112" y="115" key="CommitChangelistDialog2" timestamp="1594452500469">
+    <state x="112" y="115" key="CommitChangelistDialog2" timestamp="1595142909518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="112" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594452500469" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1594398532405">
+    <state x="112" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595142909518" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1595251870132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594398532405" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595251870132" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1594398531114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

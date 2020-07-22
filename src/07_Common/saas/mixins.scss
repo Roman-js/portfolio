@@ -6,3 +6,10 @@
   line-height: $lineHeight;
   color: $textColor
 }
+
+@mixin flex ($justifyContent, $alignItems, $flexWrap) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $flexWrap;
+}

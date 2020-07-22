@@ -6,7 +6,7 @@
   background-color: $bgSecondColor;
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: inherit;
 
   .menu {
     width: 360px;

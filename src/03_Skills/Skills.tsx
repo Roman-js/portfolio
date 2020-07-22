@@ -24,7 +24,6 @@ const Skills = () => {
         {img: typescript, title: 'Typescript', cols: 1},
         {img: css, title: 'CSS', cols: 1},
         {img: reduxImg, title: 'Redux', cols: 2},
-
     ];
 
     return (

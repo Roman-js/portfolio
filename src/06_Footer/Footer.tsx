@@ -9,21 +9,23 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import Title from "../07_Common/Title/Title";
 
 
-const Footer = () =>{
+const Footer = () => {
 
-    return(
+    return (
         <div className={style.footer}>
             <Container maxWidth={'md'}>
                 <header><Title title={'Roman Dmytrenko'}/></header>
                 <div className={style.iconsContainer}>
-                <GitHubIcon className={style.icons}/>
-                <FacebookIcon className={style.icons}/>
-                <TelegramIcon className={style.icons}/>
-                <LinkedInIcon className={style.icons}/>
+                    <GitHubIcon className={style.icons}/>
+                    <FacebookIcon className={style.icons}/>
+                    <TelegramIcon className={style.icons}/>
+                    <LinkedInIcon className={style.icons}/>
                 </div>
 
             </Container>
-
+            <div className={style.copyRights}>
+                © 2020 Все права защищены
+            </div>
         </div>
     )
 };

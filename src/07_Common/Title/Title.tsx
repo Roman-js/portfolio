@@ -8,9 +8,9 @@ type OwnPropsType = {
 const Title = (props:OwnPropsType) => {
 
     return(
-        <>
-            <h2 className={style.title}>{props.title}</h2>
-        </>
+        <div className={style.title}>
+            <h2>{props.title}</h2>
+        </div>
     )
 };
 

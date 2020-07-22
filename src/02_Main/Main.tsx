@@ -17,7 +17,9 @@ const Main = () => {
                     <h1>I'm Dmytrenko Roman</h1>
                     <p> FrontEnd Developer</p>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo}>
+
+                </div>
 
 
             </div>
