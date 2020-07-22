@@ -2,7 +2,7 @@
 @import "../07_Common/saas/mixins";
 
 .main {
-  min-height: 100vh;
+  min-height: 96vh;
   background-color: $bgColor;
   display: flex;
   align-items: center;
@@ -14,6 +14,7 @@
     right: 0;
     left: 0;
     bottom: 0;
+    margin-top: 50px;
   }
 
   .presentation {

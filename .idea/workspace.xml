@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c6b3-9239-423f-a5b4-b5ede5dabd15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/02_Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/02_Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04_Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/Projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07_Common/saas/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/saas/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +110,7 @@
       <workItem from="1595071374404" duration="25975000" />
       <workItem from="1595270240472" duration="3132000" />
       <workItem from="1595317162830" duration="23569000" />
-      <workItem from="1595428578349" duration="7196000" />
+      <workItem from="1595428578349" duration="10286000" />
     </task>
     <task id="LOCAL-00001" summary="Add Skill's page&#10;Use Material UI">
       <created>1594452502774</created>
@@ -144,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595404746081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Particles">
+      <created>1595437643232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595437643232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +151,8 @@
     <MESSAGE value="Add Skill's page&#10;Use Material UI" />
     <MESSAGE value="Layout all pages and add SASS" />
     <MESSAGE value="Add couple mixins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add couple mixins" />
+    <MESSAGE value="Add Particles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Particles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#ESLint" timestamp="1594549991504">
@@ -166,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594450179158" />
-    <state x="112" y="115" key="CommitChangelistDialog2" timestamp="1595404743086">
+    <state x="617" y="187" key="CommitChangelistDialog2" timestamp="1595437640827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="112" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595404743086" />
+    <state x="617" y="187" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595437640827" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1595417923743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,9 +191,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594398531114" />
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1594452506907">
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595437645414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594452506907" />
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595437645414" />
   </component>
 </project>

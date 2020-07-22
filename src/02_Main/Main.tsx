@@ -51,10 +51,10 @@ const Main = () => {
                            },
                            particles: {
                                color: {
-                                   value: "#ffffff",
+                                   value: "#21d100",
                                },
                                links: {
-                                   color: "#ffffff",
+                                   color: "#21d100",
                                    distance: 150,
                                    enable: true,
                                    opacity: 0.5,
@@ -91,7 +91,6 @@ const Main = () => {
                            },
                            detectRetina: true,
                        }}
-
             />
             <Container maxWidth='md'>
                 <div className={style.presentation}>
