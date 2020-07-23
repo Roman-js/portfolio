@@ -15,11 +15,13 @@
     "@types/react-dom": "^16.9.0",
     "deploy": "^1.0.3",
     "gh-pages": "^3.1.0",
+    "install": "^0.13.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.3.0",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1",
     "react-tsparticles": "^1.17.3",
     "tsparticles": "^1.17.3"

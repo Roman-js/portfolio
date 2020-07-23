@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="81c3c6b3-9239-423f-a5b4-b5ede5dabd15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02_Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,10 @@
       <workItem from="1595071374404" duration="25975000" />
       <workItem from="1595270240472" duration="3132000" />
       <workItem from="1595317162830" duration="23569000" />
-      <workItem from="1595428578349" duration="12273000" />
+      <workItem from="1595428578349" duration="13907000" />
+      <workItem from="1595484867836" duration="202000" />
+      <workItem from="1595485084742" duration="307000" />
+      <workItem from="1595485407896" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Add Skill's page&#10;Use Material UI">
       <created>1594452502774</created>
@@ -147,11 +150,31 @@
       <option name="project" value="LOCAL" />
       <updated>1595444126586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Setting animation items">
+      <created>1595446435094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595446435094</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -163,18 +186,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Setting animation items" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#ESLint" timestamp="1594549991504">
+    <state x="552" y="179" key="#ESLint" timestamp="1595485662456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1594549991504" />
+    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1595485662456" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594450179158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594450179158" />
-    <state x="617" y="187" key="CommitChangelistDialog2" timestamp="1595444125344">
+    <state x="617" y="187" key="CommitChangelistDialog2" timestamp="1595446433675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="617" y="187" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595444125344" />
+    <state x="617" y="187" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595446433675" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595485304606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595485304606" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1595417923743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,9 +226,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594398531114" />
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595444128564">
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595446437513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595444128564" />
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595446437513" />
   </component>
 </project>

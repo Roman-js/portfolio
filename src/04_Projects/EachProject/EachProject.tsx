@@ -4,6 +4,7 @@ import {Button} from "@material-ui/core";
 
 
 
+
 type image = {
     url: object
     title: string,
@@ -20,11 +21,13 @@ const EachProject = (props: OwnPropsType) => {
 
         <div className={style.wrapperAProject}>
             {props.images.map(img =>
+
                 <div className={style.image} style={img.url}>
                     <Button variant="outlined" color="primary">
                         {img.title}
                     </Button>
                 </div>
+
             )}
         </div>
     )
