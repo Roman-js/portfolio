@@ -7,21 +7,25 @@
   flex-direction: column;
 
 
-  .iconsContainer{
-
+  .iconsContainer {
     display: flex;
     justify-content: center;
 
-
     .icons {
-      width: 75px;
-      height: 75px;
+      width: 65px;
+      height: 65px;
       padding: 10px;
+      transition: 0.3s;
       @media screen and (max-width: 400px) {
         width: 60px;
       }
     }
+    :hover {
+      height: 85px;
+      width: 85px;
+    }
   }
+
   .copyRights {
     font-size: 13px;
     font-family: Montserrat;

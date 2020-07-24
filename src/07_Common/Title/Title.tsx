@@ -5,11 +5,15 @@ type OwnPropsType = {
     title: string
 }
 
+const Flip: any = require('react-reveal').default;
+
 const Title = (props:OwnPropsType) => {
 
     return(
         <div className={style.title}>
+            <Flip bottom>
             <h2>{props.title}</h2>
+            </Flip>
         </div>
     )
 };

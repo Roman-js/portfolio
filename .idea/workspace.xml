@@ -5,7 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/EachSkill/EachSkill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_Skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/EachProject/EachProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_Common/Title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_Common/Title/Title.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +123,10 @@
       <workItem from="1595428578349" duration="13907000" />
       <workItem from="1595484867836" duration="202000" />
       <workItem from="1595485084742" duration="307000" />
-      <workItem from="1595485407896" duration="1889000" />
+      <workItem from="1595485407896" duration="3761000" />
+      <workItem from="1595492365993" duration="11546000" />
+      <workItem from="1595572988007" duration="6883000" />
+      <workItem from="1595581653729" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Add Skill's page&#10;Use Material UI">
       <created>1594452502774</created>
@@ -157,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595446435094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Try to make animation">
+      <created>1595488199905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595488199905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +203,8 @@
     <MESSAGE value="Add couple mixins" />
     <MESSAGE value="Add Particles" />
     <MESSAGE value="Setting animation items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting animation items" />
+    <MESSAGE value="Try to make animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to make animation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#ESLint" timestamp="1595485662456">
@@ -194,14 +215,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594450179158" />
-    <state x="617" y="187" key="CommitChangelistDialog2" timestamp="1595446433675">
+    <state x="617" y="187" key="CommitChangelistDialog2" timestamp="1595488198313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="617" y="187" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595446433675" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595485304606">
+    <state x="617" y="187" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595488198313" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595490356616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595485304606" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595490356616" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1595417923743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,9 +247,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594398531114" />
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595446437513">
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595488205927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595446437513" />
+    <state x="79" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595488205927" />
   </component>
 </project>

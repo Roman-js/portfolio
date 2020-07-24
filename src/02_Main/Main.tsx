@@ -1,7 +1,12 @@
 import React from "react";
 import style from './Main.module.scss'
 import {Container} from "@material-ui/core";
-import Particles from "react-tsparticles";
+
+
+const ReactTypingEffect: any = require('react-typing-effect').default;
+const Particles: any  = require('react-tsparticles').default;
+const Zoom: any = require('react-reveal').default;
+const Tilt: any = require('react-tilt').default;
 
 
 
@@ -93,22 +98,28 @@ const Main = () => {
                        }}
             />
             <Container maxWidth='md'>
+                <Zoom top>
                 <div className={style.presentation}>
 
                     <div className={style.text}>
+
                         <span>Hi there</span>
                         <h1 className={style.name}>I'm Dmytrenko Roman</h1>
-                        <p> FrontEnd Developer</p>
+                        <p> <ReactTypingEffect text='FrontEnd Developer'/></p>
                     </div>
 
                     <div className={style.photo}>
+                        <Tilt>
                         <div className={style.photoImage}>
                         </div>
+                        </Tilt>
+
 
                     </div>
 
 
                 </div>
+                </Zoom>
             </Container>
         </div>
 

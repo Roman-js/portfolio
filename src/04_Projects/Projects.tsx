@@ -50,7 +50,7 @@ const Projects = () => {
 
 
     return (
-        <div className={style.projects}>
+        <div className={style.projects} id={'ToProjects'}>
 
             <Container maxWidth='md'>
                 <Title title='My Works'/>

@@ -27,13 +27,13 @@ const Skills = () => {
     ];
 
     return (
-        <div className={style.skills}>
+        <div className={style.skills} id={'ToSkills'}>
             <Container maxWidth='md'>
                 <Title title='Skills'/>
             <EachSkill imgData={imgData}/>
             </Container>
         </div>
     )
-}
+};
 
 export default Skills;

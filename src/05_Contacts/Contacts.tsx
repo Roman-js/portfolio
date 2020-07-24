@@ -5,21 +5,18 @@ import Title from "../07_Common/Title/Title";
 
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import {green, purple, red} from "@material-ui/core/colors";
+const Fade: any = require('react-reveal').default;
+
 
 
 const styles = {
     root: {
-        background: "#343a40"
+        background: "#green"
     },
     input: {
         color: "white"
     },
-    /*palette: {
-        primary: purple,
-        secondary: green,
-        error: red,
-    },*/
+
 };
 
 const Contacts = (props: any) => {
@@ -28,8 +25,10 @@ const Contacts = (props: any) => {
 
 
         return (
-        <div className={style.contacts}>
+        <div className={style.contacts} id={'ToContacts'}>
+
             <Container maxWidth={'md'} className={style.container}>
+                <Fade>
                 <Title title='Contacts'/>
                 <div className={style.insideContainer}>
                     <form className={style.form}>
@@ -51,7 +50,9 @@ const Contacts = (props: any) => {
 
                     </form>
                 </div>
+                </Fade>
             </Container>
+
         </div>
     )
 

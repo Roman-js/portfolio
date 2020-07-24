@@ -4,6 +4,8 @@ import {GridList, GridListTile, IconButton} from "@material-ui/core";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import InfoIcon from '@material-ui/icons/Info';
 
+const LightSpeed: any = require('react-reveal').default;
+
 export type TypeOfSkill = {
 
     img: string,
@@ -20,6 +22,7 @@ const EachSkill = (props: imgDataType) => {
 
     return (
         <div>
+            <LightSpeed right>
             <GridList cellHeight={214} cols={3} className={style.eachSkill}>
 
                 {props.imgData.map(skill =>
@@ -27,7 +30,6 @@ const EachSkill = (props: imgDataType) => {
 
                         <img src={skill.img} alt={skill.title} />
                         {
-
                             <GridListTileBar
                                 title={skill.title}
                                 actionIcon={
@@ -35,12 +37,12 @@ const EachSkill = (props: imgDataType) => {
                                         <InfoIcon/>
                                     </IconButton>
                                 }/>
-
                         }
-
-                    </GridListTile>)}
+                    </GridListTile>
+                    )}
 
             </GridList>
+                </LightSpeed>
         </div>
     )
 }
