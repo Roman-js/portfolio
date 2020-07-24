@@ -107,15 +107,16 @@ const Main = () => {
                         <h1 className={style.name}>I'm Dmytrenko Roman</h1>
                         <p> <ReactTypingEffect text='FrontEnd Developer'/></p>
                     </div>
-
+                    <Tilt max={10}>
                     <div className={style.photo}>
-                        <Tilt>
+
                         <div className={style.photoImage}>
                         </div>
-                        </Tilt>
+
 
 
                     </div>
+                    </Tilt>
 
 
                 </div>
