@@ -12,23 +12,30 @@
         width: 400px;
         margin: 10px;
         @include flex(center,flex-end,'');
-        padding-bottom: 10px;
+        /*padding-bottom: 10px;*/
         background-size: cover;
         background-position: center;
-        position: relative;
+        /*position: relative;*/
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        &::before {
-            position: absolute;
-            content: '';
+        .description {
+            height: 350px;
+            width: 400px;
+        }
+        :hover {
             background-color: $bgSecondColor;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
+          content: attr(dsdfsadfasdfasfasfdasfdasdf);
+            color: green;
             opacity: 0.4;
+            transition: 0.3s;
+        }
+        .but{
+            position: absolute;
         }
     }
+
+
 }
+
 
 
 

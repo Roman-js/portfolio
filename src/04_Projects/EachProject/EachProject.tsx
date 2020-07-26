@@ -1,11 +1,8 @@
-import React from "react";
+import React, {ChangeEvent, useState} from "react";
 import style from './EachProject.module.scss'
 import {Button} from "@material-ui/core";
 
 const Fade: any = require('react-reveal').default;
-
-
-
 
 type image = {
     url: object
@@ -16,7 +13,11 @@ type OwnPropsType = {
 }
 
 
+
+
+
 const EachProject = (props: OwnPropsType) => {
+
 
 
     return (
@@ -24,10 +25,19 @@ const EachProject = (props: OwnPropsType) => {
         <div className={style.wrapperAProject}>
             {props.images.map(img =>
                 <Fade left>
-                <div className={style.image} style={img.url}>
-                    <Button variant="outlined" color="primary">
+                <div className={style.image} style={img.url} >
+                        <div className={style.description} >
+
+                                <Fade bottom>
+
+                                </Fade>
+
+
+                        </div>
+                    <Button variant="contained" color="inherit" className={style.but}>
                         {img.title}
                     </Button>
+
                 </div>
                 </Fade>
 

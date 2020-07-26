@@ -34,19 +34,6 @@ const Projects = () => {
 
     ];
 
-    const theme = createMuiTheme({
-        palette: {
-            primary: {
-                main: green[400]
-            },
-            secondary: {
-                main: red[50]
-            },
-
-            error: red,
-        },
-
-    });
 
 
     return (
@@ -54,9 +41,9 @@ const Projects = () => {
 
             <Container maxWidth='md'>
                 <Title title='My Works'/>
-                <MuiThemeProvider theme={theme}>
+
                     <EachProject images={images}/>
-                </MuiThemeProvider>
+
             </Container>
 
         </div>

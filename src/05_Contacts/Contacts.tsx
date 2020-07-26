@@ -24,6 +24,8 @@ const Contacts = (props: any) => {
     const { classes } = props;
 
 
+
+
         return (
         <div className={style.contacts} id={'ToContacts'}>
 
