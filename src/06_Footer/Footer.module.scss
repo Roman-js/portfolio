@@ -12,19 +12,21 @@
     justify-content: center;
     height: 95px;
 
-    .icons {
-      width: 65px;
-      height: 65px;
-      padding: 10px;
-      transition: 0.3s;
-      @media screen and (max-width: 400px) {
-        width: 60px;
-      }
+  .icons {
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+    transition: 0.3s;
+    @media screen and (max-width: 400px) {
+      width: 60px;
     }
-    :hover {
-      height: 85px;
-      width: 85px;
-    }
+  }
+
+  :hover {
+    height: 85px;
+    width: 85px;
+  }
+
   }
 
   .copyRights {

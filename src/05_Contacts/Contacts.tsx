@@ -5,29 +5,31 @@ import Title from "../07_Common/Title/Title";
 import PropTypes from "prop-types";
 import {withStyles} from "@material-ui/core/styles";
 import axios from 'axios'
+import {green} from "@material-ui/core/colors";
 
 const Fade: any = require('react-reveal').default;
 
 const styles = {
-    root: {
-        background: "#green"
+    primary: {
+        borderBottomColor: 'green',
+        /*color: 'green',*/
     },
     input: {
         color: "white"
     },
-
 };
 type initialStateType = {
     name: string,
     contacts: string,
-    message: string
+    message: string,
+    dis: boolean
 }
 
 const Contacts = (props: any) => {
 
     const {classes} = props;
 
-    const [state, setState] = useState<initialStateType>({name: '', contacts: '', message: ''});
+    const [state, setState] = useState<initialStateType>({name: '', contacts: '', message: '', dis: false});
 
     const setName = (e: any) => {
         setState({...state, name: e.currentTarget.value});
@@ -40,9 +42,11 @@ const Contacts = (props: any) => {
         setState({...state, message: e.currentTarget.value});
     };
     const sendForm = () => {
-
-        axios.post('https://gmail-smtp.herokuapp.com/sendMessage', {...state});
-        setState({...state, message: '', name: '', contacts: ''})
+        setState({...state, dis: true});
+        axios.post('https://gmail-smtp.herokuapp.com/sendMessage', {...state})
+            .then(res => {
+                return res.status === 200 ? setState({...state, message: '', name: '', contacts: '', dis: false}) : null
+            });
     };
 
 
@@ -60,32 +64,34 @@ const Contacts = (props: any) => {
                                        className={classes.root}
                                        InputProps={{className: classes.input}}
                             />
-                            <TextField placeholder='Email'
+                            <TextField placeholder='Email or Phone Number'
                                        onChange={setEmail}
                                        value={state.contacts}
                                        className={classes.root}
+
                                        InputProps={{className: classes.input}}
                             />
                             <TextField placeholder='Your message'
                                        onChange={setMessage}
                                        value={state.message}
                                        className={classes.root}
+                                       multiline
+                                       rows={4}
                                        InputProps={{className: classes.input}}
                             />
                             <div className={style.button}>
-                                <Button variant='outlined'
+                                <Button variant='contained'
                                         onClick={sendForm}
+                                        style={{borderColor: 'green',  backgroundColor: 'green'}}
+                                        disabled={state.dis}
                                         color='primary'>Send</Button>
                             </div>
-
                         </form>
                     </div>
                 </Fade>
             </Container>
-
         </div>
     )
-
 };
 
 Contacts.propTypes = {

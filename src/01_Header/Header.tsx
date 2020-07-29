@@ -2,7 +2,7 @@ import React from "react";
 import style from './Header.module.scss'
 
 
-const {Link}: any = require('react-scroll').default;
+const {Link} = require('react-scroll').default;
 
 const Header = () => {
 
