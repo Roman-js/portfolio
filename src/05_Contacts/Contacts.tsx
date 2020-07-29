@@ -8,12 +8,6 @@ import axios from 'axios'
 
 const Fade: any = require('react-reveal').default;
 
- const instance = axios.create({
-     baseURL: 'https://gmail-smtp.herokuapp.com/sendMessage'}
- );
-
-
-
 const styles = {
     root: {
         background: "#green"
@@ -25,7 +19,7 @@ const styles = {
 };
 type initialStateType = {
     name: string,
-    email: string,
+    contacts: string,
     message: string
 }
 
@@ -33,20 +27,22 @@ const Contacts = (props: any) => {
 
     const {classes} = props;
 
-    const [state, setState] = useState<initialStateType>({name: '', email: '', message: ''});
+    const [state, setState] = useState<initialStateType>({name: '', contacts: '', message: ''});
 
     const setName = (e: any) => {
         setState({...state, name: e.currentTarget.value});
         console.log(state)
     };
     const setEmail = (e: any) => {
-        setState({...state, email: e.currentTarget.value});
+        setState({...state, contacts: e.currentTarget.value});
     };
     const setMessage = (e: any) => {
         setState({...state, message: e.currentTarget.value});
     };
-    const sendForm = () =>{
-      return axios.post('https://gmail-smtp.herokuapp.com/sendMessage', state)
+    const sendForm = () => {
+
+        axios.post('https://gmail-smtp.herokuapp.com/sendMessage', {...state});
+        setState({...state, message: '', name: '', contacts: ''})
     };
 
 
@@ -60,13 +56,13 @@ const Contacts = (props: any) => {
                         <form className={style.form}>
                             <TextField placeholder='Name'
                                        onChange={setName}
-                                value={state.name}
+                                       value={state.name}
                                        className={classes.root}
                                        InputProps={{className: classes.input}}
                             />
                             <TextField placeholder='Email'
                                        onChange={setEmail}
-                                       value={state.email}
+                                       value={state.contacts}
                                        className={classes.root}
                                        InputProps={{className: classes.input}}
                             />

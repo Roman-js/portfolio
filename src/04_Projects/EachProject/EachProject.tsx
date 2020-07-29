@@ -26,17 +26,18 @@ const EachProject = (props: OwnPropsType) => {
             {props.images.map(img =>
                 <Fade left>
                 <div className={style.image} style={img.url} >
-                        <div className={style.description} >
 
+{/*
                                 <Fade bottom>
 
-                                </Fade>
+                                </Fade>*/}
+                    <div className={style.info}>
+                        <span>Инфа</span>
+                        <Button variant="contained" color="inherit" className={style.but}>
+                            {img.title}
+                        </Button>
 
-
-                        </div>
-                    <Button variant="contained" color="inherit" className={style.but}>
-                        {img.title}
-                    </Button>
+                    </div>
 
                 </div>
                 </Fade>
