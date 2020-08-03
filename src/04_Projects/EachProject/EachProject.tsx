@@ -22,17 +22,20 @@ const EachProject = (props: OwnPropsType) => {
         <div className={style.wrapperAProject}>
             {props.images.map(img =>
                 <Fade left key={img.title}>
-                <div className={style.image} style={img.url} >
-                    <div className={style.info}>
-                        <span>{img.info}</span>
-                        <Button variant="contained"
-                                color="primary"
-                                style={{borderColor: 'green',  backgroundColor: 'green'}}
-                                href={img.link}>
-                            {img.title}
-                        </Button>
-                    </div>
-                </div>
+                    <a href={img.link}>
+                        <div className={style.image} style={img.url}>
+
+                            <div className={style.info}>
+
+                                <span>
+                                    <h3>{img.title}</h3>
+                                    {img.info}
+                                </span>
+
+                            </div>
+
+                        </div>
+                    </a>
                 </Fade>
             )}
         </div>

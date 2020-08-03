@@ -5,13 +5,12 @@ import Title from "../07_Common/Title/Title";
 import PropTypes from "prop-types";
 import {withStyles} from "@material-ui/core/styles";
 import axios from 'axios'
-import {green} from "@material-ui/core/colors";
 
 const Fade: any = require('react-reveal').default;
 
 const styles = {
     primary: {
-        borderBottomColor: 'green',
+        borderBottomColor: 'black',
         /*color: 'green',*/
     },
     input: {
@@ -82,7 +81,7 @@ const Contacts = (props: any) => {
                             <div className={style.button}>
                                 <Button variant='contained'
                                         onClick={sendForm}
-                                        style={{borderColor: 'green',  backgroundColor: 'green'}}
+                                        style={{borderColor: 'white',  backgroundColor: 'black'}}
                                         disabled={state.dis}
                                         color='primary'>Send</Button>
                             </div>

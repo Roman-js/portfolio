@@ -1,10 +1,8 @@
 import React from "react";
-import {Container, MuiThemeProvider} from "@material-ui/core";
+import {Container} from "@material-ui/core";
 import style from './Projects.module.scss'
 import Title from "../07_Common/Title/Title";
 import EachProject from "./EachProject/EachProject";
-import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
-import {green, red} from "@material-ui/core/colors";
 import toDoListImg from './../07_Common/images/todo.jpg'
 import socialNetworkImg from './../07_Common/images/social_network1.jpeg'
 import cardsImg from './../07_Common/images/cards.jpg'

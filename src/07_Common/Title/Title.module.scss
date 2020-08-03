@@ -4,19 +4,20 @@
 
   text-align: center;
   margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.8px;
 
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  font-size: 21px;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-weight: 300;*/
+ /* font-size: 21px;*/
   text-transform: capitalize;
   line-height: 1.2;
-  letter-spacing: 5px;
+  font-size: 3.1em;
+  font-weight: 700;
   color: $textColor;
   position: relative;
 
-  h2 {
-    font-weight: 400;
-  }
+
   &::before{
     content: '';
     width: 55px;
