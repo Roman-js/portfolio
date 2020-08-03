@@ -21,14 +21,15 @@ type initialStateType = {
     name: string,
     contacts: string,
     message: string,
-    dis: boolean
+    dis: boolean,
+    receiver: string
 }
 
 const Contacts = (props: any) => {
 
     const {classes} = props;
 
-    const [state, setState] = useState<initialStateType>({name: '', contacts: '', message: '', dis: false});
+    const [state, setState] = useState<initialStateType>({name: '', contacts: '', message: '', dis: false, receiver: 'liverkuzen1989@gmail.com'});
 
     const setName = (e: any) => {
         setState({...state, name: e.currentTarget.value});
